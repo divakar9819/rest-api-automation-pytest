@@ -1,9 +1,10 @@
 
 from cores.my_request import Request
 from cores.asserts import Assert
+from cores.base_test import BaseCase, config
 
 
-class TestGetUser:
+class TestGetUser(BaseCase):
 
     def test_get_user_list_with_page_id(self):
         data = {

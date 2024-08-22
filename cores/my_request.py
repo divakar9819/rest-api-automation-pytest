@@ -5,6 +5,9 @@ from cores.logger import Logger
 
 class Request:
 
+
+
+
     @staticmethod
     def post(url: str, data: dict = None, headers: dict = None, cookies: dict = None):
         return Request._send(url, data, headers, cookies, 'POST')
