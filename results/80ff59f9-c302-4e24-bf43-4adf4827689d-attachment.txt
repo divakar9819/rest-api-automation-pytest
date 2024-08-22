@@ -1,0 +1,3 @@
+https://reqres.in/api/users
+201
+{'id': '924', 'createdAt': '2024-08-22T09:50:28.000Z'}

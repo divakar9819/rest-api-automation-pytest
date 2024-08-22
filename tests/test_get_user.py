@@ -28,3 +28,8 @@ class TestGetUser:
         data = json_response['data']
         Assert.assert_equals(data['id'],user_id)
 
+    def test_get_single_user_not_fount(self):
+        user_id = 23
+        response = Request.get(f"/api/users/{user_id}")
+        Assert.assert_code_status(response,404)
+

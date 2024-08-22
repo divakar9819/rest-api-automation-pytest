@@ -13,3 +13,83 @@
 [2024-08-21 17:55:32.988857] Response cookies: {}
 -----
 
+
+----Request----
+[2024-08-22 15:04:05.455225] Request method: POST
+[2024-08-22 15:04:05.455553] Request URL: https://reqres.in/api/users
+[2024-08-22 15:04:05.455556] Request data: {}
+[2024-08-22 15:04:05.455560] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 15:04:05.455562] Request cookies: {}
+
+
+----Response----
+[2024-08-22 15:04:09.093333] Response code: 201
+[2024-08-22 15:04:09.093442] Response text: {"id":"892","createdAt":"2024-08-22T09:34:09.061Z"}
+[2024-08-22 15:04:09.093638] Response headers: {'Date': 'Thu, 22 Aug 2024 09:34:09 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724319249&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=EoZYN0151zL6gEPfnl%2Bm7OFaQskiY5w7UQ8KIzIg%2FOc%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724319249&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=EoZYN0151zL6gEPfnl%2Bm7OFaQskiY5w7UQ8KIzIg%2FOc%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-WJj9pAj4Wqca/mOJOwWwsyVp6eQ"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b71dd888ad88ae8-DEL'}
+[2024-08-22 15:04:09.093716] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-22 15:04:32.777311] Request method: POST
+[2024-08-22 15:04:32.777396] Request URL: https://reqres.in/api/users
+[2024-08-22 15:04:32.777399] Request data: {}
+[2024-08-22 15:04:32.777402] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 15:04:32.777405] Request cookies: {}
+
+
+----Response----
+[2024-08-22 15:04:33.222156] Response code: 201
+[2024-08-22 15:04:33.222226] Response text: {"id":"728","createdAt":"2024-08-22T09:34:33.190Z"}
+[2024-08-22 15:04:33.222246] Response headers: {'Date': 'Thu, 22 Aug 2024 09:34:33 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724319273&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=AZwPsxJCXyZ%2Bq%2Fkdr%2F2IzDCcmXLLNqvy5Z%2BmC1Wi3fU%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724319273&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=AZwPsxJCXyZ%2Bq%2Fkdr%2F2IzDCcmXLLNqvy5Z%2BmC1Wi3fU%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-QtJP/RGKiHShBTtUOtNGMKYykos"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b71de1fd8c854e6-DEL'}
+[2024-08-22 15:04:33.222295] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-22 15:12:29.057259] Request method: PUT
+[2024-08-22 15:12:29.057526] Request URL: https://reqres.in/api/users/2
+[2024-08-22 15:12:29.057529] Request data: {'name': 'Ajay', 'job': 'SDE'}
+[2024-08-22 15:12:29.057533] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 15:12:29.057535] Request cookies: {}
+
+
+----Response----
+[2024-08-22 15:12:32.921468] Response code: 200
+[2024-08-22 15:12:32.921537] Response text: {"name":"Ajay","job":"SDE","updatedAt":"2024-08-22T09:42:32.919Z"}
+[2024-08-22 15:12:32.921559] Response headers: {'Date': 'Thu, 22 Aug 2024 09:42:33 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724319752&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=XWYVTSN1y2G4D8J0JxG7S7XiUVOrZb1OFe%2BZ0szOlhA%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724319752&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=XWYVTSN1y2G4D8J0JxG7S7XiUVOrZb1OFe%2BZ0szOlhA%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"42-FcHINFiFMZal4srh9n8ae+hzM04"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'CF-RAY': '8b71e9d5c8f959d8-DEL', 'Content-Encoding': 'gzip'}
+[2024-08-22 15:12:32.921614] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-22 15:13:53.755416] Request method: PUT
+[2024-08-22 15:13:53.755519] Request URL: https://reqres.in/api/users/2
+[2024-08-22 15:13:53.755522] Request data: {'name': 'Ajay', 'job': 'SDE'}
+[2024-08-22 15:13:53.755525] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 15:13:53.755528] Request cookies: {}
+
+
+----Response----
+[2024-08-22 15:13:54.563318] Response code: 200
+[2024-08-22 15:13:54.563382] Response text: {"name":"Ajay","job":"SDE","updatedAt":"2024-08-22T09:43:54.563Z"}
+[2024-08-22 15:13:54.563400] Response headers: {'Date': 'Thu, 22 Aug 2024 09:43:54 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724319834&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OMuO3qiU0488hcVuwpRakRI%2Fc956%2Fmzv13heYeRNW%2Bc%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724319834&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OMuO3qiU0488hcVuwpRakRI%2Fc956%2Fmzv13heYeRNW%2Bc%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"42-VPsHZBICl3CLAConidKELsMiRt0"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'CF-RAY': '8b71ebd3f9715522-DEL', 'Content-Encoding': 'gzip'}
+[2024-08-22 15:13:54.563460] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-22 15:16:47.851279] Request method: GET
+[2024-08-22 15:16:47.851560] Request URL: https://reqres.in/api/users/23
+[2024-08-22 15:16:47.851566] Request data: None
+[2024-08-22 15:16:47.851570] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 15:16:47.851573] Request cookies: {}
+
+
+----Response----
+[2024-08-22 15:16:51.270643] Response code: 404
+[2024-08-22 15:16:51.270750] Response text: {}
+[2024-08-22 15:16:51.270790] Response headers: {'Date': 'Thu, 22 Aug 2024 09:46:51 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '2', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724319911&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=Q4BFjgCg9vl%2Fd4vuLLx%2FyQzMtNLq0at8%2B7nIWp8ap7I%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724319911&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=Q4BFjgCg9vl%2Fd4vuLLx%2FyQzMtNLq0at8%2B7nIWp8ap7I%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"', 'Via': '1.1 vegur', 'Cache-Control': 'max-age=14400', 'CF-Cache-Status': 'HIT', 'Age': '100', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'CF-RAY': '8b71f026de5a54e8-DEL'}
+[2024-08-22 15:16:51.270863] Response cookies: {}
+-----
+
