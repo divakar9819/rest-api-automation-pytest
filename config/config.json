@@ -1,7 +1,7 @@
 {
-  "dev_host": "https://reqres.in",
-  "prod_host" : "https://reqres.in",
-  "get_user" : "/api/users",
-  "create_user": "/api/users",
-  "update_user": "/api/users"
+  "host": "https://jsonplaceholder.typicode.com",
+  "getAPI": "/posts/1",
+  "postAPI":"/posts",
+  "reqresHost" : "https://reqres.in",
+  "postUser" : "/api/users"
 }

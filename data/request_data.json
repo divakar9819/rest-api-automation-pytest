@@ -1,0 +1,13 @@
+{
+  "getAPI": "",
+  "postAPI":{
+    "title": "foo",
+    "body": "bar",
+    "userId": 1
+  },
+
+  "createUser" : {
+    "name":"Ajay",
+    "job":"SDE"
+  }
+}

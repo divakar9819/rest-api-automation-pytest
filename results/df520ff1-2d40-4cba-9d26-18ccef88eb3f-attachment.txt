@@ -1,0 +1,20 @@
+[32mINFO    [0m cores.logger:logger.py:47 
+----Request----
+[2024-08-23 18:25:53.270881] Request method: POST
+[2024-08-23 18:25:53.270904] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 18:25:53.270910] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 18:25:53.270918] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 18:25:53.270924] Request cookies: {}
+
+[32mINFO    [0m cores.logger:logger.py:61 
+----Response----
+[2024-08-23 18:25:53.948970] Response code: 201
+[2024-08-23 18:25:53.949093] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 18:25:53.949124] Response headers: {'Date': 'Fri, 23 Aug 2024 12:55:54 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724417753&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=H5afP3vF7roF09wHqRs4Ej5kiYlMZ%2Fg5slttG%2Fz7FvU%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724417753&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=H5afP3vF7roF09wHqRs4Ej5kiYlMZ%2Fg5slttG%2Fz7FvU%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724417800', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b4270efe99e41-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 18:25:53.949214] Response cookies: {}
+-----

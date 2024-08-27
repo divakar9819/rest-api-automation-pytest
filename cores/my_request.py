@@ -1,5 +1,5 @@
 import requests
-from environment import env
+# from environment import env
 from cores.logger import Logger
 
 
@@ -26,7 +26,6 @@ class Request:
 
     @staticmethod
     def _send(url: str, data: dict, headers: dict, cookies: dict, method: str):
-        url = f"{env.base_url()}{url}"
         print(url)
 
         if headers is None:

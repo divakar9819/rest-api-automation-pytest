@@ -109,3 +109,529 @@
 [2024-08-22 16:14:08.409958] Response cookies: {}
 -----
 
+
+----Request----
+[2024-08-22 17:05:20.492536] Request method: GET
+[2024-08-22 17:05:20.492630] Request URL: https://reqres.inhttps://jsonplaceholder.typicode.com/posts/1
+[2024-08-22 17:05:20.492634] Request data: None
+[2024-08-22 17:05:20.492637] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 17:05:20.492640] Request cookies: {}
+
+
+----Request----
+[2024-08-22 17:08:22.500357] Request method: GET
+[2024-08-22 17:08:22.500429] Request URL: https://jsonplaceholder.typicode.com/posts/1
+[2024-08-22 17:08:22.500432] Request data: None
+[2024-08-22 17:08:22.500435] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 17:08:22.500438] Request cookies: {}
+
+
+----Response----
+[2024-08-22 17:08:22.900012] Response code: 200
+[2024-08-22 17:08:22.900034] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-22 17:08:22.900042] Response headers: {'Date': 'Thu, 22 Aug 2024 11:38:22 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712074258&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KAwk8PW4ZcZT7%2FT8ZoAYTonLKD58gkxHUD5GEkKRX8k%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1712074258&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KAwk8PW4ZcZT7%2FT8ZoAYTonLKD58gkxHUD5GEkKRX8k%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1712074275', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '11594', 'Server': 'cloudflare', 'CF-RAY': '8b7293858f4c9e3b-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-22 17:08:22.900063] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-22 17:09:55.909067] Request method: POST
+[2024-08-22 17:09:55.909168] Request URL: https://jsonplaceholder.typicode.com
+[2024-08-22 17:09:55.909172] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-22 17:09:55.909177] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 17:09:55.909180] Request cookies: {}
+
+
+----Request----
+[2024-08-22 17:10:38.526088] Request method: POST
+[2024-08-22 17:10:38.526173] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-22 17:10:38.526177] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-22 17:10:38.526180] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 17:10:38.526183] Request cookies: {}
+
+
+----Request----
+[2024-08-22 17:11:29.174600] Request method: POST
+[2024-08-22 17:11:29.174673] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-22 17:11:29.174676] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-22 17:11:29.174680] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-22 17:11:29.174682] Request cookies: {}
+
+
+----Request----
+[2024-08-23 17:09:07.620252] Request method: POST
+[2024-08-23 17:09:07.620598] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:09:07.620603] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:09:07.620608] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:09:07.620611] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:09:12.002130] Response code: 201
+[2024-08-23 17:09:12.002333] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:09:12.002393] Response headers: {'Date': 'Fri, 23 Aug 2024 11:39:12 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724413151&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=F56XpmiaEYqA7skaBvIMjeo9G7ntaRo7SfU8JfpPBBM%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724413151&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=F56XpmiaEYqA7skaBvIMjeo9G7ntaRo7SfU8JfpPBBM%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724413180', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7ad2135b0e2f0a-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:09:12.002537] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:12:01.112147] Request method: POST
+[2024-08-23 17:12:01.112376] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:12:01.112379] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:12:01.112383] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:12:01.112385] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:12:05.447244] Response code: 201
+[2024-08-23 17:12:05.447308] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:12:05.447325] Response headers: {'Date': 'Fri, 23 Aug 2024 11:42:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724413325&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=gpPBSVpJK8LFwHxCv4K8zqgZcR9xBwwLNfmX7dtvhgA%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724413325&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=gpPBSVpJK8LFwHxCv4K8zqgZcR9xBwwLNfmX7dtvhgA%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724413360', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7ad64f3ee89c56-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:12:05.447382] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:30:58.716415] Request method: GET
+[2024-08-23 17:30:58.716723] Request URL: https://jsonplaceholder.typicode.com/posts/1
+[2024-08-23 17:30:58.716726] Request data: None
+[2024-08-23 17:30:58.716729] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:30:58.716731] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:31:02.254550] Response code: 200
+[2024-08-23 17:31:02.254604] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-23 17:31:02.254621] Response headers: {'Date': 'Fri, 23 Aug 2024 12:01:02 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712084973&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=o0sB6K9vdSCORuGYGiF2hwFcdlhqZgjjzX7CAafjcaM%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1712084973&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=o0sB6K9vdSCORuGYGiF2hwFcdlhqZgjjzX7CAafjcaM%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1712085015', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '18969', 'Server': 'cloudflare', 'CF-RAY': '8b7af2158f876c09-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:31:02.254670] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:31:51.707386] Request method: GET
+[2024-08-23 17:31:51.707466] Request URL: https://jsonplaceholder.typicode.com/posts/1
+[2024-08-23 17:31:51.707469] Request data: None
+[2024-08-23 17:31:51.707472] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:31:51.707474] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:31:52.092196] Response code: 200
+[2024-08-23 17:31:52.092251] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-23 17:31:52.092267] Response headers: {'Date': 'Fri, 23 Aug 2024 12:01:52 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722291722&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TdaCfzFnapzPm73V5q0RLqEqENvZ2kXNIq7%2F6IZSJLQ%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1722291722&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TdaCfzFnapzPm73V5q0RLqEqENvZ2kXNIq7%2F6IZSJLQ%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1722291774', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '18339', 'Server': 'cloudflare', 'CF-RAY': '8b7af34d1b53ce26-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:31:52.092307] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:35:15.720556] Request method: GET
+[2024-08-23 17:35:15.721034] Request URL: https://jsonplaceholder.typicode.com//posts/1
+[2024-08-23 17:35:15.721057] Request data: None
+[2024-08-23 17:35:15.721069] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:35:15.721080] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:35:16.247658] Response code: 200
+[2024-08-23 17:35:16.247711] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-23 17:35:16.247731] Response headers: {'Date': 'Fri, 23 Aug 2024 12:05:16 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712075078&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=JzRo0LlK25cqvVyw4TVYQtAs%2BYz3liEchu4ktlmhIaM%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1712075078&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=JzRo0LlK25cqvVyw4TVYQtAs%2BYz3liEchu4ktlmhIaM%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1712075115', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '12398', 'Server': 'cloudflare', 'CF-RAY': '8b7af8490d6a5f93-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:35:16.247782] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:41:15.321660] Request method: POST
+[2024-08-23 17:41:15.321951] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:41:15.321956] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:41:15.321962] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:41:15.321965] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:41:19.651455] Response code: 201
+[2024-08-23 17:41:19.651533] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:41:19.651550] Response headers: {'Date': 'Fri, 23 Aug 2024 12:11:19 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724415079&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=nWrWG314f4iMba9aLedPyWcMVT6UPX4%2FnQniPrdvRTo%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724415079&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=nWrWG314f4iMba9aLedPyWcMVT6UPX4%2FnQniPrdvRTo%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724415100', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b01237c289b8b-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:41:19.651588] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:44:35.620702] Request method: POST
+[2024-08-23 17:44:35.620999] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:44:35.621003] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:44:35.621007] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:44:35.621009] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:44:36.622023] Response code: 201
+[2024-08-23 17:44:36.622085] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:44:36.622109] Response headers: {'Date': 'Fri, 23 Aug 2024 12:14:36 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724415276&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=50lKwlm1buL6c%2FoQodC0FgvM2LrQ8vwuBh0XSChT1x0%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724415276&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=50lKwlm1buL6c%2FoQodC0FgvM2LrQ8vwuBh0XSChT1x0%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724415280', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b05f59e4ace67-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:44:36.622171] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:46:34.323728] Request method: POST
+[2024-08-23 17:46:34.323816] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:46:34.323819] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:46:34.323823] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:46:34.323826] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:46:38.590757] Response code: 201
+[2024-08-23 17:46:38.590802] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:46:38.590829] Response headers: {'Date': 'Fri, 23 Aug 2024 12:16:38 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724415398&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=%2BpWIHHtxL%2Fsemh5S1FjK9rCxhgvfmYEWxFV34kyB5FA%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724415398&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=%2BpWIHHtxL%2Fsemh5S1FjK9rCxhgvfmYEWxFV34kyB5FA%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724415400', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b08ecdfea4c47-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:46:38.590882] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:48:14.485661] Request method: POST
+[2024-08-23 17:48:14.486011] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:48:14.486018] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:48:14.486025] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:48:14.486028] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:48:15.170856] Response code: 201
+[2024-08-23 17:48:15.170904] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:48:15.170919] Response headers: {'Date': 'Fri, 23 Aug 2024 12:18:15 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724415495&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=e8hWQZSHHfZkINsaI%2BOSvCEpEgfxDrkbUkpL4sZemVU%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724415495&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=e8hWQZSHHfZkINsaI%2BOSvCEpEgfxDrkbUkpL4sZemVU%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724415520', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b0b4ba902ce4b-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:48:15.170961] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:48:49.580883] Request method: POST
+[2024-08-23 17:48:49.581032] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:48:49.581043] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:48:49.581052] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:48:49.581056] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:48:53.931455] Response code: 201
+[2024-08-23 17:48:53.931551] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:48:53.931577] Response headers: {'Date': 'Fri, 23 Aug 2024 12:18:53 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724415533&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=yBpgaM8unaArPUmMTwvHqyeXnjqVFqexqnJfMo2aQX0%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724415533&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=yBpgaM8unaArPUmMTwvHqyeXnjqVFqexqnJfMo2aQX0%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724415580', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b0c3a7c411738-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:48:53.931636] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:50:18.692223] Request method: POST
+[2024-08-23 17:50:18.692798] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:50:18.692802] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:50:18.692808] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:50:18.692811] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:50:19.912088] Response code: 201
+[2024-08-23 17:50:19.912124] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:50:19.912137] Response headers: {'Date': 'Fri, 23 Aug 2024 12:20:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724415619&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KxsSFwHG8cipzzAxP5NQznWVPd5sUYTdqFwz2o5eO5Q%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724415619&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KxsSFwHG8cipzzAxP5NQznWVPd5sUYTdqFwz2o5eO5Q%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724415640', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b0e53e805406a-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:50:19.912176] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:51:32.092912] Request method: POST
+[2024-08-23 17:51:32.093216] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:51:32.093220] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:51:32.093224] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:51:32.093227] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:51:33.388540] Response code: 201
+[2024-08-23 17:51:33.388626] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:51:33.388671] Response headers: {'Date': 'Fri, 23 Aug 2024 12:21:33 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724415693&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=toGXkhwhWccIkotpCMmY%2BfHa59IUhlHQbyK0s4V7Rpg%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724415693&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=toGXkhwhWccIkotpCMmY%2BfHa59IUhlHQbyK0s4V7Rpg%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724415700', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b101ecd8d7978-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:51:33.388747] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:52:53.829530] Request method: POST
+[2024-08-23 17:52:53.829602] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:52:53.829605] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:52:53.829608] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:52:53.829611] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:52:58.134130] Response code: 201
+[2024-08-23 17:52:58.134186] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:52:58.134219] Response headers: {'Date': 'Fri, 23 Aug 2024 12:22:58 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724415778&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MfBFjovZnp0yFCFUM7RF2zhQHtkcxTvB2DVwZsn%2BFe4%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724415778&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MfBFjovZnp0yFCFUM7RF2zhQHtkcxTvB2DVwZsn%2BFe4%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724415820', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b12310f7b9b8a-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:52:58.134302] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:53:38.864896] Request method: POST
+[2024-08-23 17:53:38.864976] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:53:38.864979] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:53:38.864982] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:53:38.864985] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:53:39.542682] Response code: 201
+[2024-08-23 17:53:39.542704] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:53:39.542713] Response headers: {'Date': 'Fri, 23 Aug 2024 12:23:39 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724415819&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=kUthZAkH4k2YaQzVKz3Twwwz0JRZs8Wr34wxVzz2Zg0%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724415819&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=kUthZAkH4k2YaQzVKz3Twwwz0JRZs8Wr34wxVzz2Zg0%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '998', 'X-Ratelimit-Reset': '1724415820', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b13370ad5ce87-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:53:39.542735] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:56:15.863881] Request method: GET
+[2024-08-23 17:56:15.864165] Request URL: https://jsonplaceholder.typicode.com//posts/1
+[2024-08-23 17:56:15.864168] Request data: None
+[2024-08-23 17:56:15.864171] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:56:15.864174] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:56:16.334239] Response code: 200
+[2024-08-23 17:56:16.334258] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-23 17:56:16.334265] Response headers: {'Date': 'Fri, 23 Aug 2024 12:26:16 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712074258&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KAwk8PW4ZcZT7%2FT8ZoAYTonLKD58gkxHUD5GEkKRX8k%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1712074258&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KAwk8PW4ZcZT7%2FT8ZoAYTonLKD58gkxHUD5GEkKRX8k%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1712074275', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '14462', 'Server': 'cloudflare', 'CF-RAY': '8b7b170cab0b46cd-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:56:16.334285] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:56:49.673061] Request method: GET
+[2024-08-23 17:56:49.673163] Request URL: https://jsonplaceholder.typicode.com//posts/1
+[2024-08-23 17:56:49.673166] Request data: None
+[2024-08-23 17:56:49.673169] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:56:49.673172] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:56:50.047273] Response code: 200
+[2024-08-23 17:56:50.047319] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-23 17:56:50.047330] Response headers: {'Date': 'Fri, 23 Aug 2024 12:26:50 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712074258&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KAwk8PW4ZcZT7%2FT8ZoAYTonLKD58gkxHUD5GEkKRX8k%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1712074258&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KAwk8PW4ZcZT7%2FT8ZoAYTonLKD58gkxHUD5GEkKRX8k%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1712074275', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '14496', 'Server': 'cloudflare', 'CF-RAY': '8b7b17df58086047-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:56:50.047355] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:58:03.445862] Request method: GET
+[2024-08-23 17:58:03.445934] Request URL: https://jsonplaceholder.typicode.com//posts/1
+[2024-08-23 17:58:03.445937] Request data: None
+[2024-08-23 17:58:03.445939] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:58:03.445942] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:58:03.844599] Response code: 200
+[2024-08-23 17:58:03.844642] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-23 17:58:03.844656] Response headers: {'Date': 'Fri, 23 Aug 2024 12:28:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722291722&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TdaCfzFnapzPm73V5q0RLqEqENvZ2kXNIq7%2F6IZSJLQ%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1722291722&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TdaCfzFnapzPm73V5q0RLqEqENvZ2kXNIq7%2F6IZSJLQ%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1722291774', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '19910', 'Server': 'cloudflare', 'CF-RAY': '8b7b19ac9c75ce62-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:58:03.844694] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:59:20.341350] Request method: GET
+[2024-08-23 17:59:20.341431] Request URL: https://jsonplaceholder.typicode.com//posts/1
+[2024-08-23 17:59:20.341434] Request data: None
+[2024-08-23 17:59:20.341437] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:59:20.341440] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:59:20.737213] Response code: 200
+[2024-08-23 17:59:20.737257] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-23 17:59:20.737269] Response headers: {'Date': 'Fri, 23 Aug 2024 12:29:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712084972&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=hWSpjtoxhnFxNqtj9JJIWZnNH7eYjf459IlO%2FacF3%2Fg%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1712084972&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=hWSpjtoxhnFxNqtj9JJIWZnNH7eYjf459IlO%2FacF3%2Fg%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1712085015', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '27063', 'Server': 'cloudflare', 'CF-RAY': '8b7b1b8d2bfe4b86-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:59:20.737305] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:59:36.703340] Request method: GET
+[2024-08-23 17:59:36.703420] Request URL: https://jsonplaceholder.typicode.com//posts/1
+[2024-08-23 17:59:36.703423] Request data: None
+[2024-08-23 17:59:36.703426] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:59:36.703428] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:59:37.102483] Response code: 200
+[2024-08-23 17:59:37.102518] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-23 17:59:37.102528] Response headers: {'Date': 'Fri, 23 Aug 2024 12:29:37 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712074258&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KAwk8PW4ZcZT7%2FT8ZoAYTonLKD58gkxHUD5GEkKRX8k%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1712074258&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=KAwk8PW4ZcZT7%2FT8ZoAYTonLKD58gkxHUD5GEkKRX8k%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1712074275', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '14663', 'Server': 'cloudflare', 'CF-RAY': '8b7b1bf36d2e4977-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:59:37.102552] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:59:42.325790] Request method: GET
+[2024-08-23 17:59:42.325864] Request URL: https://jsonplaceholder.typicode.com//posts/1
+[2024-08-23 17:59:42.325867] Request data: None
+[2024-08-23 17:59:42.325873] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:59:42.325876] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:59:42.715083] Response code: 200
+[2024-08-23 17:59:42.715132] Response text: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+[2024-08-23 17:59:42.715156] Response headers: {'Date': 'Fri, 23 Aug 2024 12:29:42 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722291722&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TdaCfzFnapzPm73V5q0RLqEqENvZ2kXNIq7%2F6IZSJLQ%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1722291722&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TdaCfzFnapzPm73V5q0RLqEqENvZ2kXNIq7%2F6IZSJLQ%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1722291774', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '20009', 'Server': 'cloudflare', 'CF-RAY': '8b7b1c168815ce67-SIN', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:59:42.715211] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 17:59:42.723695] Request method: POST
+[2024-08-23 17:59:42.723710] Request URL: https://jsonplaceholder.typicode.com/posts
+[2024-08-23 17:59:42.723716] Request data: {'title': 'foo', 'body': 'bar', 'userId': 1}
+[2024-08-23 17:59:42.723724] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 17:59:42.723730] Request cookies: {}
+
+
+----Response----
+[2024-08-23 17:59:43.943276] Response code: 201
+[2024-08-23 17:59:43.943357] Response text: {
+  "title": "foo",
+  "body": "bar",
+  "userId": "1",
+  "id": 101
+}
+[2024-08-23 17:59:43.943382] Response headers: {'Date': 'Fri, 23 Aug 2024 12:29:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724416183&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dzfanXKFlzlp8xomBXi%2FMAe54numqSbw7O9Oi33d8hA%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724416183&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dzfanXKFlzlp8xomBXi%2FMAe54numqSbw7O9Oi33d8hA%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1724416240', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'https://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"43-e0UvNeXth+6+06UFNnGIVUOlAcw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b1c191e6b493f-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+[2024-08-23 17:59:43.943448] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 18:20:24.737338] Request method: POST
+[2024-08-23 18:20:24.737638] Request URL: https://reqres.in/api/users
+[2024-08-23 18:20:24.737642] Request data: {'name': 'Ajay', 'job': 'SDE'}
+[2024-08-23 18:20:24.737648] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 18:20:24.737651] Request cookies: {}
+
+
+----Response----
+[2024-08-23 18:20:28.396881] Response code: 201
+[2024-08-23 18:20:28.397006] Response text: {"name":"Ajay","job":"SDE","id":"809","createdAt":"2024-08-23T12:50:28.376Z"}
+[2024-08-23 18:20:28.397040] Response headers: {'Date': 'Fri, 23 Aug 2024 12:50:28 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '77', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724417428&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=CSGgIk0K8IMdWKkz6ATR3gaGELrNjJop9HQoWId%2BHGs%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724417428&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=CSGgIk0K8IMdWKkz6ATR3gaGELrNjJop9HQoWId%2BHGs%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"4d-RroYU8sr3vDyIeqMMtidmZGKzj0"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b3a7deb188549-BOM'}
+[2024-08-23 18:20:28.397117] Response cookies: {}
+-----
+
+
+----Request----
+[2024-08-23 18:21:43.409961] Request method: POST
+[2024-08-23 18:21:43.410075] Request URL: https://reqres.in/api/users
+[2024-08-23 18:21:43.410079] Request data: {}
+[2024-08-23 18:21:43.410083] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2024-08-23 18:21:43.410086] Request cookies: {}
+
+
+----Response----
+[2024-08-23 18:21:46.988860] Response code: 201
+[2024-08-23 18:21:46.988932] Response text: {"id":"769","createdAt":"2024-08-23T12:51:47.017Z"}
+[2024-08-23 18:21:46.988959] Response headers: {'Date': 'Fri, 23 Aug 2024 12:51:47 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724417507&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=pN%2F98Uz3nLl0U82V6%2FqPOuAJwk2%2F5E%2B9Fy1Us7eWNNA%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1724417507&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=pN%2F98Uz3nLl0U82V6%2FqPOuAJwk2%2F5E%2B9Fy1Us7eWNNA%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-InSkkr+fRqYrCwFacIOoKSRQ+BI"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8b7b3c693b8d5510-DEL'}
+[2024-08-23 18:21:46.989020] Response cookies: {}
+-----
+
