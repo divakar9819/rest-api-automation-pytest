@@ -54,5 +54,4 @@ class BaseCase:
         with open("data/response_data.json", "r") as json_file:
             if json_file.name is None:
                 raise Exception("file not found")
-
             return json.load(json_file)
